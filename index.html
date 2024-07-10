@@ -1,56 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Phishing Training Site</title>
-    <link rel="stylesheet" href="./CSS/styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./CSS/styles.css" />
+    <!-- Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
     <header>
-        <h1>Oops! You clicked on a simulated phishing test!</h1>
-        <p>Please have a look below for some guidence or contatact the IT team for more information</p>
+      <h1>Oops! You clicked on a simulated phishing test!</h1>
     </header>
     <main>
-        <section>
-            <h2>What is Phishing?</h2>
-            <p>Phishing is a type of social engineering attack often used to steal user data, including login credentials and credit card numbers. It occurs when an attacker, masquerading as a trusted entity, tricks a victim into opening an email, instant message, or text message. The recipient is then directed to clicking a malicious link, which can lead to the installation of malware, the freezing of the system as part of a ransomware attack or the revealing of sensitive information.</p>
-        </section>
-        <section>
-            <h2>How to Spot Phishing Emails</h2>
-            <p>Phishing emails often appear to come from a well-known organization, such as a bank or credit card company. They usually include a link to a fake website that looks authentic and may ask for personal information, such as a password or credit card number. Here are some tips to help you spot phishing emails:</p>
-            <ul>
-                <li>Check the sender's email address. Phishing emails often come from a suspicious or unfamiliar address.</li>
-                <li>Examine the email for generic greetings or requests for personal information. Legitimate organizations usually address you by name and never ask for sensitive information via email.</li>
-                <li>Look for spelling and grammar mistakes. Legitimate emails are usually well-written and free of errors.</li>
-                <li>Hover over links to see the actual URL. Phishing emails often contain links to fake websites.</li>
-                <li>Don't click on suspicious links or download attachments from unknown sources.</li>
-                <li>Be cautious of urgent or threatening language. Phishing emails often try to scare you into taking immediate action.</li>
-            </ul>
-        </section>
-        <section>
-            <h2>What to Do If You Suspect a Phishing Email</h2>
-            <p>If you suspect that an email is a phishing attempt, do not click on any links or download any attachments. Instead, follow these steps:</p>
-            <ol>
-                <li>Do not reply to the email or forward it to others.</li>
-                <li>Report the email to your organization's IT department or security team.</li>
-                <li>Delete the email from your inbox and trash folder.</li>
-                <li>Change your password if you clicked on any links or provided any personal information.</li>
-                
-            </ol>
-        </section>   
-        <section>
-            <h2>Where can you find more information?</h2>
-            <ul>
-                <li>For more information on how to protect yourself from phishing attacks, visit the <a href="https://www.ncsc.gov.uk/files/Phishing-attacks-dealing-suspicious-emails-infographic.pdf"> NCSC Phishing Attack Poster.</a></li>
-                <li>Speak with the Internal IT team for advice.</li>
+      <div class="row-cols-2" id="row1">
+        <div id="col">
+          <h2>How to Spot Phishing Emails</h2>
+          <ul>
+            <li>Check the sender's email address.</li>
+            <li>Examine the email for generic greetings or requests for personal information.</li>
+            <li>Look for spelling and grammar mistakes.</li>
+            <li>Hover over links to see the actual URL.</li>
+            <li>Don't click on suspicious links or download attachments from unknown sources.</li>
+            <li>Be cautious of urgent or threatening language.</li>
+          </ul>
+        </div>
+        <div id="col">
+            <img src="img/" alt="">
 
-            </ul>            
-        </section>    
+        </div>
+      </div>
+      <section>
+        <h2>What to Do If You Suspect a Phishing Email</h2>
+        <p>
+          If you suspect that an email is a phishing attempt, do not click on
+          any links or download any attachments. Instead, follow these steps:
+        </p>
+        <ol>
+          <li>Do not reply to the email or forward it to others.</li>
+          <li>
+            Report the email to your organization's IT department or security
+            team.
+          </li>
+          <li>Delete the email from your inbox and trash folder.</li>
+          <li>
+            Change your password if you clicked on any links or provided any
+            personal information.
+          </li>
+        </ol>
+      </section>
+      <section>
+        <h2>Where can you find more information?</h2>
+        <ul>
+          <li>
+            For more information on how to protect yourself from phishing
+            attacks, check out the
+            <a
+              href="https://www.ncsc.gov.uk/files/Phishing-attacks-dealing-suspicious-emails-infographic.pdf"
+            >
+              NCSC Phishing Attack Poster.</a
+            >
+          </li>
+          <li>Speak with the Internal IT team for advice.</li>
+        </ul>
+      </section>
     </main>
 
-    <footer>
+    <footer></footer>
 
-    </footer>
-</body>
+    <!--Bootstrap Javascript-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

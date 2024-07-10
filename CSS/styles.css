@@ -2,7 +2,7 @@ body{
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: cadetblue;
+    background-image: url("../img/phishing-7487504_1280.png");
 }
 
 header{
@@ -13,6 +13,17 @@ header{
 }
 
 section{
+    margin: auto;
+    margin-top: 20px;
+    width: 75%;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: 3px solid #e5e5e5;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #e5e5e5;
+}
+
+#row1{
     margin: auto;
     margin-top: 10px;
     width: 75%;
