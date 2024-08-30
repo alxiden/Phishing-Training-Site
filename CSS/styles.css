@@ -18,6 +18,7 @@ section{
     width: 75%;
     padding: 10px;
     background-color: #f2f2f2;
+    color: #333;
     border: 3px solid #e5e5e5;
     border-radius: 5px;
     box-shadow: 0 0 10px #e5e5e5;
@@ -32,4 +33,19 @@ section{
     border: 3px solid #e5e5e5;
     border-radius: 5px;
     box-shadow: 0 0 10px #e5e5e5;
+}
+
+#center-image{
+    display: block;
+    width: 75%;
+    margin-top: 5%;
+    margin-left: 50%;
+    width: 50%;
+}
+img{
+    display: block;
+    width: 200%;
+    border-radius: 10%;
+    box-shadow: 10px 10px 5px #888888;
+    
 }
