@@ -1,4 +1,7 @@
 <?php
+// Ensure no output before this point
+ob_start();
+
 // Path to the counter file
 $counter_file = 'counter.txt';
 
@@ -15,6 +18,9 @@ $count++;
 
 // Write the new count back to the file
 file_put_contents($counter_file, $count);
+
+// Clear any previous output
+ob_end_clean();
 
 // Return the count as a JSON response
 header('Content-Type: application/json');
