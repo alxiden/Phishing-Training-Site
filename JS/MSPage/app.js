@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', () => {
             formData.append('password', password);
 
             // Send a POST request to Cred.php with the FormData
-            fetch('Cred.php', {
+            fetch('../PHP/Cred.php', {
                 method: 'POST',
                 body: formData
             })
@@ -131,7 +131,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     console.error('An error occurred while adding username and password to the database:', error);
                 });
             //close the window
-            window.open(location, '_self').close();
+            //window.open(location, '_self').close();
         })
     })
 })

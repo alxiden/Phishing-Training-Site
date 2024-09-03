@@ -1,7 +1,7 @@
 <?php
 	$servername = "localhost";
 	$username = "Phish";
-	$password = "************";
+	$password = "";
 	$dbname = "Phish_Report";
 
 	$connection = new mysqli($servername, $username, $password, $dbname);

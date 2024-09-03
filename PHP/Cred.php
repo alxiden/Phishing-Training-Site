@@ -9,13 +9,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $password = $_POST['password'];
 
     // Save the username and password to the accounts table
-    $sql = "INSERT INTO accounts (username, password) VALUES (?, ?)";
-    $stmt = $pdo->prepare($sql);
-    $stmt->execute([$username, $password]);
-
-    // Redirect to the a microsoft.com
-    header('Location: https://www.microsoft.com');
-
+    $query = "INSERT INTO accounts (username, password) VALUES ('$username', '$password')";
+    $result = mysqli_query($connection, $query);    
 
     exit;
 }
